@@ -14,7 +14,7 @@ const connect = function() {
     console.log("This is data from the server: ", data);
   });
 
-  //display data
+  //display data included the name registration with the same connect handler
   conn.on("connect", () => {
     console.log("Successfully connected to game server");
     conn.write("Name: MCD");
