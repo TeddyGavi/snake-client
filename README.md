@@ -10,7 +10,7 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
-!["An illustration of a very civil game between three friends"](Screenshot%20from%202022-08-08%2015-14-43.png)
+!["An illustration of a very civil game between three friends"](screenshot.png)
 
 
 
