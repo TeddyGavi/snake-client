@@ -1,24 +1,11 @@
 const connect = require("./client");
+const setupInput = require("./input");
 
-const handUserInput = (key) => {
-    if (key === '\u0003') {
-      console.log("you have exited the game")
-      process.exit();
-    }
-}
+console.log("Connecting ...");
+//call the connect function
+connect();
 
-const setupInput = function () {
-  const stdin = process.stdin;
-  stdin.setRawMode(true);
-  stdin.setEncoding("utf8");
-  stdin.resume();
-
-  stdin.on("data", handUserInput)
-
-  return stdin;
-};
-
-
-
-
+//call the set up input function
 setupInput();
+
+
