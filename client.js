@@ -14,7 +14,8 @@ const connect = function () {
   })
 
   conn.on("connect", () => {
-    console.log("Are you ready to play Snek?")
+    console.log("Successfully connected to game server")
+    conn.write("Name: MCD")
   })
 
   return conn;
