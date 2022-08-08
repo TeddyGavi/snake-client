@@ -1,3 +1,5 @@
+const { messages, move } = require("./constants");
+
 let connection;
 
 const handUserInput = (key) => {
@@ -5,24 +7,34 @@ const handUserInput = (key) => {
     console.log("you have exited the game");
     process.exit();
   }
-  if (key === 'w') {
+  if (move[key]) {
+    connection.write(move[key]);
+  }
+  if (messages[key]){
+    connection.write(messages[key]);
+    }
+
+
+/*   if (key === MOVE_UP_KEY) {
     connection.write("Move: up");
   }
-  if (key === 'a') {
+  if (key === MOVE_LEFT_KEY) {
     connection.write("Move: left");
   }
-  if (key === 's') {
+  if (key === MOVE_DOWN_KEY) {
     connection.write("Move: down");
   }
-  if (key === 'd') {
+  if (key === MOVE_RIGHT_KEY) {
     connection.write("Move: right");
-  }
-  if (key === 'l') {
+  } */
+/*   if (key === 'l') {
     connection.write("Say: LOL");
   }
   if (key === "t") {
     connection.write("Say: Eat my shorts!");
-  }
+  } */
+
+
 };
 
 const setupInput = function(conn) {
