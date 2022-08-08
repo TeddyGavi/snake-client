@@ -20,7 +20,10 @@ const connect = function() {
     conn.write("Name: MCD");
   });
 
-  /*   conn.on("connect", () => {
+  /*   
+  testing the .on("", cb) functionality
+
+  conn.on("connect", () => {
     setInterval(() => {
       conn.write("Move: up");
     }, 50)

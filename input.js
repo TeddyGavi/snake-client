@@ -21,6 +21,7 @@ const setupInput = function(conn) {
   stdin.setRawMode(true);
   stdin.setEncoding("utf8");
   stdin.resume();
+  
   //Here we are assigning the function handleUserInput to the callback of stdin "data"
   stdin.on("data", handleUserInput);
 

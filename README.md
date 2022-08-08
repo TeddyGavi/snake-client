@@ -16,11 +16,14 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Getting Started
 
-- Follow steps inside the snek server repo to run the server side
+- Follow steps inside the [snek server repo](https://github.com/lighthouse-labs/snek-multiplayer) to run the server side
 - Run the development snake client using the `node play.js` command.
 
+## NOTE 
+- Inside the server folder I have only included the file I modified from the original [snek server repo](https://github.com/lighthouse-labs/snek-multiplayer) provided through my study at [Lighthouse Labs](https://github.com/lighthouse-labs)
+
 ## Features:
-- A message is sent to each currently connected player that announces the arrival of a new player as well as current player count.
+- [ x ] A message is sent to each currently connected player that announces the arrival of a new player as well as current player count.
 
 ## Future ToDo's
 - [ ] Add a function that will display a current users ip address </br>
