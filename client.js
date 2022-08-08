@@ -13,10 +13,17 @@ const connect = function () {
     console.log("This is data from the server: ", data)    
   })
 
+  //display data
   conn.on("connect", () => {
     console.log("Successfully connected to game server")
     conn.write("Name: MCD")
   })
+
+/*   conn.on("connect", () => {
+    setInterval(() => {
+      conn.write("Move: up");
+    }, 50)
+  }) */
 
   return conn;
 };
