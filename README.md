@@ -21,7 +21,7 @@ Before you can run this client, you will need to be running the server side whic
 
 ## NOTE 
 - Inside the server folder I have only included the file I modified from the original [snek server repo](https://github.com/lighthouse-labs/snek-multiplayer) provided through my study at [Lighthouse Labs](https://github.com/lighthouse-labs)
-- My added code are on lines 68-71 & 84-85 of the file inside the [server-side](./server-side/RemoteInterface.js) folder.
+- My code is on lines 68-71 & 84-85 (inclusive) of the file inside the [server-side](./server-side/RemoteInterface.js) folder.
 
 ## Features:
 - [x] A message is sent to each currently connected player that announces the arrival of a new player as well as current player count.
