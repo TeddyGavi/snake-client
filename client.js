@@ -20,7 +20,7 @@ const connect = function() {
     conn.write("Name: MCD");
   });
 
-  /*   
+  /*
   testing the .on("", cb) functionality
 
   conn.on("connect", () => {

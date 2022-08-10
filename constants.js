@@ -14,12 +14,13 @@ const MESSAGES = {
   t: "Say: Eat My shorts",
 };
 
-/* 
+/*
 replaced these with an object for simplifying input code
 const MOVE_UP_KEY = 'w';
 const MOVE_DOWN_KEY = 's';
 const MOVE_LEFT_KEY = 'a';
-const MOVE_RIGHT_KEY = 'd'; */
+const MOVE_RIGHT_KEY = 'd'; 
+*/
 
 module.exports = {
   IP,
